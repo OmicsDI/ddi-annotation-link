@@ -2,7 +2,7 @@ package uk.ac.ebi.ddi.task.ddiannotationlink.configuration;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties("importer")
+@ConfigurationProperties("linkannotation")
 public class DatasetAnnotationTaskProperties {
 
     private String databaseName;

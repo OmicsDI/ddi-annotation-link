@@ -17,7 +17,7 @@ public class LinkAnnotationService {
     IDatasetService datasetService;
 
     public List<Dataset> getAllDatasetsByDatabase(String databaseName){
-        return datasetService.readDatasetHashCode(databaseName);
+        return datasetService.readDatasetsByDatabase(databaseName);
     }
 
     public void annotateDatasets(String databaseName){
